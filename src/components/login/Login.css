@@ -1,6 +1,6 @@
 .container {
   position: absolute;
-  width: 450px;
+  max-width: 450px;
   background-color: rgba(252, 252, 252, 0.205);
   backdrop-filter: blur(50px);
   min-height: 500px;
@@ -133,3 +133,16 @@ p{
   
 }
 
+@media screen and (max-width: 400px) {
+  .container {
+    padding: 20px 30px;
+
+  }
+
+  h1{
+    font-size: 28px;
+  }
+  .signup-link p{
+  font-size: 14px;
+}
+}

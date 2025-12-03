@@ -10,7 +10,7 @@ function App() {
   return (
     <>
     <div className="App">
-      <img src={imge} autoPlay loop muted></img>
+      <img src={imge}></img>
       <Login/>
     </div>
        </>
